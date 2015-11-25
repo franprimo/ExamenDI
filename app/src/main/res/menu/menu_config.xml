@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/opc1"
+        android:title="Datos">
+        <menu>
+            <item
+                android:id="@+id/opc3"
+                android:title="Anteriores">
+
+            </item>
+            <item
+                android:id="@+id/opc4"
+                android:title="Actuales">
+
+            </item>
+        </menu>
+
+    </item>
+    <item android:id="@+id/opc2"
+        android:title="Preferencias">
+
+    </item>
+
+
+
+
+</menu>

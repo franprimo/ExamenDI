@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamenDI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seleccion">SeleccionActivity</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+    <string name="title_activity_op_avanzas">OpAvanzas</string>
+    <string name="title_activity_visor_internet">VisorInternet</string>
+</resources>

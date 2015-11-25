@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="wifi"
+        android:title="Wi-Fi"
+        android:summaryOn="Activado"
+        android:summaryOff="Desactivado">
+
+    </SwitchPreference>
+    <SwitchPreference
+        android:key="bluetooth"
+        android:title="Bluetooth"
+        android:summaryOn="Activado"
+        android:summaryOff="Desactivado">
+
+    </SwitchPreference>
+    <CheckBoxPreference
+        android:key="silencio"
+        android:title="Modo silencioso"
+        android:summaryOn="El modo silencioso esta activido"
+        android:summaryOff="El modo silencioso esta desactivado">
+
+    </CheckBoxPreference>
+    <ListPreference
+        android:key="tono"
+        android:title="Tonos"
+        android:summary=""
+        android:entries="@array/listaTonos"
+        android:entryValues="@array/listaTonos"
+        />
+    <PreferenceScreen
+        android:key="opciones"
+        android:title="Opciones avanzadas"
+        />
+</PreferenceScreen>
